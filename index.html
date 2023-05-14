@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tic-Tac-Toe</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <h1 class="title">Tic-Tac-Toe</h1>
-    </header>
-    <div class="gameboard">
-        <div class="square">O</div>
+    <h1 id="title">Tic-Tac-Toe</h1>
+    <div id="message">Player X's turn</div>
+    <div id="gameboard">
+        <!-- <div class="square">O</div>
         <div class="square">X</div>
         <div class="square">O</div>
         <div class="square">X</div>
@@ -21,7 +20,11 @@
         <div class="square">X</div>
         <div class="square">O</div>
         <div class="square">X</div>
-        <div class="square">O</div>
+        <div class="square">O</div> -->
+    </div>
+    <div class="game-buttons">
+        <button class="start-btn">Start</button>
+        <button class="restart-btn">Restart</button>
     </div>
 </body>
 </html>
